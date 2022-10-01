@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | pricing component with toggle</title>
+
+</head>
+<body class="">
+<main>
+  <!--container-->
+  <div class="container">
+    <!--header-->
+  <section class="header">
+    <!--theme mode-->
+    <div class="theme">
+      <span class="theme__title">light mode</span>
+    <!--botao-->
+    <div id="theme__button" class="btn theme__btn">
+      <div class="theme__btn__circle">
+      </div>
+    </div> <!-- fim botao-->
+    <span class="theme__title">dark mode</span>
+    </div><!--fim theme mode-->
+
+    <h1 class="header__title">Our Pricing</h1>
+    <div class="header__btn">
+      <span class="title">Annually</span>
+    <!--botao-->
+    <div id="button" class="btn">
+      <div class="btn__circle">
+      </div>
+    </div> <!-- fim botao-->
+    <span class="title">Monthly</span>
+    </div>
+  </section><!-- fim header-->
+
+  <!--container prices-->
+  <section class="container__prices">
+
+    <!-- card-->
+    <div class="card">
+      <h1 class="card__title">Basic</h1>
+      <div class="card__price">
+       <span class="card__price--less">&dollar;</span>
+       <span id="priceBasic">19.99</span>
+      </div>
+
+      <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text">500 GB Storage</p>
+      </div><!--fim card container-->
+
+       <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text">2 Users Allowed</p>
+      </div><!--fim card container-->
+       <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text">Send up to 3 GB</p>
+      </div><!--fim card container-->
+      <button class="card__button">Learn More</button>
+    </div><!--fim card-->
+
+    <!-- card-->
+    <div class="card card--blue">
+      <h1 class="card__title card__title--white">Professional</h1>
+      <div class="card__price card__price--white">
+      <span class="card__price--less">&dollar;</span>
+       <span id="priceProfissional">24.99</span>
+     </div>
+
+      <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text card__text--white">1 TB Storage</p>
+      </div><!--fim card container-->
+
+       <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text card__text--white">5 Users Allowed</p>
+      </div><!--fim card container-->
+
+       <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text card__text--white">Send up to 10 GB</p>
+
+      </div><!--fim card container-->
+      <button class="card__button card__button--white">Learn More</button>
+    </div><!--fim card-->
+
+    <!-- card-->
+    <div class="card">
+      <h1 class="card__title">Master</h1>
+      <div class="card__price">
+      <span class="card__price--less">&dollar;</span>
+      <span id="priceMaster">39.99</span>
+    </div>
+
+      <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text">2 TB Storage</p>
+      </div><!--fim card container-->
+
+       <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text">10 Users Allowed</p>
+      </div><!--fim card container-->
+
+       <!-- card container-->
+      <div class="card__descrition">
+        <p class="card__text">Send up to 20 GB</p>
+      </div><!--fim card container-->
+      <button class="card__button">Learn More</button>
+    </div><!--fim card-->
+
+    
+
+  </section><!--fim container prices-->
+  </div><!--fim container-->
+</main>
+  <!--Script js-->
+  <script src="js/main.js"></script>
+</body>
+</html>
